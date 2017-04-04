@@ -1,24 +1,26 @@
 # Social Network Dynamic Web Project
 Dynamic social network web project using the MVC model with JSP and Servlets.
-Front end created with HTML5, CSS3, Javascript
-Back end written in Java
+Front end created with HTML5, CSS3, Javascript.
+Back end written in Java.
 
 To execute:
-1) Go to jsp folder in WebContent and launch file chooser.
-2) Place absolute path of test_file.xml when prompted
-3) From then, choose to login or signup
+1) Go to jsp folder in WebContent and launch file_chooser.jsp.
+2) Place absolute path of test_file.xml when prompted.
+3) From then, choose to either login or signup.
 
 Data is first read from a XML file that contains information on users,
-movies and feed for every user. User can then choose to login or signup.
+movies and feed for every user.
 
 Features:
 User authentication is accomplished by sending an AJAX request to the backend
 which then dynamically displays an error message if there is one.
 
-Upon successful login, user sees is prompted to their profile page where they can see their
-followers and following. Also has a mini feed that shows the action of each friend.
+Upon successful login, user is directed to their profile page where he/she can see
+their followers as well as who they are following. The middle column is a mini feed that shows the action of each friend
+that the user is following.
+
 Followers, following and movie links are all clickable and redirects to another dynamic page.
-Can also search for movies or users at the search bar at the top.
+User also has the ability to search for movies or users at the search bar at the top.
 
 In a movies page, the current user can click on the "Watched", "Like", or "Dislike" button
 for the movie, in which case, will get reflected on the feeds of those who are following the
